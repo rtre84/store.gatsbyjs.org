@@ -4,7 +4,8 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    siteUrl: 'https://store.gatsbyjs.org',
+    siteUrl_orig: 'https://store.gatsbyjs.org',
+    siteUrl: 'https://petsuppliesstore.co',
     title: 'Holy buckets! Get your Gatsby swag here!',
     description:
       'Do you like spaced-out socks? All purple everything? Hitting #maximumcomf with JAMstack Jammies? Oh boy have we got the swag store for you!'
@@ -20,8 +21,10 @@ module.exports = {
     {
       resolve: 'gatsby-source-shopify',
       options: {
-        shopName: 'gatsby-swag',
-        accessToken: process.env.SHOPIFY_ACCESS_TOKEN
+        shopName: 'pet-supplies-admin',
+        accessToken: process.env.SHOPIFY_ACCESS_TOKEN,
+        verbose: true,
+        paginationSize: 50
       }
     },
     'gatsby-plugin-react-helmet',

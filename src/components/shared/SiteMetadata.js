@@ -23,7 +23,10 @@ export default () => (
       <Helmet defaultTitle={title} titleTemplate={`%s · ${title}`}>
         <html lang="en" />
 
-        <link rel="preconnect" href="https://gatsby-swag.myshopify.com" />
+        <link
+          rel="preconnect"
+          href="https://pet-supplies-admin.myshopify.com"
+        />
         <link rel="preconnect" href="https://api.gatsbyjs.org" />
 
         <link rel="canonical" href={siteUrl} />

@@ -95,7 +95,6 @@ export const query = graphql`
       }
       images {
         id
-        altText
         localFile {
           childImageSharp {
             fluid(maxWidth: 910, maxHeight: 910) {
