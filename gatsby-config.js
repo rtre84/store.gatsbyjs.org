@@ -24,7 +24,7 @@ module.exports = {
         shopName: 'pet-supplies-admin',
         accessToken: process.env.SHOPIFY_ACCESS_TOKEN,
         verbose: true,
-        paginationSize: 50
+        paginationSize: 25
       }
     },
     'gatsby-plugin-react-helmet',

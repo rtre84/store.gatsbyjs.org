@@ -3,6 +3,8 @@ import { css } from '@emotion/core';
 
 import { colors } from '../../utils/styles';
 
+import petSuppliesLogo from '../../../static/PetSuppliesLogo.png';
+
 const svg = css`
   display: inline-block;
   height: 28px;
@@ -49,8 +51,10 @@ const Product = () => (
 
 export default () => (
   <div css={svg}>
-    <Monogram />
-    <Logotype />
-    <Product />
+    {/*<Monogram />*/}
+    {/*<Logotype />*/}
+    {/*<Product />*/}
+
+    <img src={petSuppliesLogo} width="200" alt="Pet Supplies Logo" />
   </div>
 );
