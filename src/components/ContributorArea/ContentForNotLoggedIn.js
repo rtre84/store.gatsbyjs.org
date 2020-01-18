@@ -23,30 +23,39 @@ const Button = styled(BaseButton)`
 
 const ContentForGuest = () => (
   <ContentForGuestRoot>
-    <SectionHeading>For Existing Contributors</SectionHeading>
+    <SectionHeading>For Our New Visitors</SectionHeading>
     <FirstHeading>
-      Get Gatsby Swag for <strong>FREE!</strong>
+      Get Our Awesome Pet Supplies at a <strong>DISCOUNT!</strong>
     </FirstHeading>
     <Text>
-      Already contributed to Gatsby? Claim your personal coupon code and get
-      free swag by logging in with your GitHub account!
+      We truly believe we have some of the most innovative products in the
+      world, and we want to make sure we back that up with a risk-free ironclad
+      30 day guarantee.
+      <br />
+      <br />
+      Buying items online can be a daunting task, so we want you to realize that
+      there is absolutely ZERO risk in buying something and trying it out. If
+      you don't like it, no hard feelings, we'll make it right.
     </Text>
-    <Button inverse onClick={e => login()}>
-      Log in with GitHub <GoMarkGithub />
-    </Button>
-    <SectionHeading>For Future Contributors</SectionHeading>
-    <Heading>Never contributed to Gatsby?</Heading>
-    <Text>
-      Let’s get you started with your first contribution to Gatsby! Once you’ve
-      had your first pull request merged into Gatsby, you can come back here to
-      claim free swag.
-    </Text>
-
+    {/*<Button inverse onClick={e => login()}>*/}
+    {/*Log in with GitHub <GoMarkGithub />*/}
+    {/*</Button>*/}
     <Button
       inverse
-      href="https://github.com/search?o=desc&q=org%3Agatsbyjs+type%3Aissue+label%3A%22help%20wanted%22+is%3Aopen&s=updated&type=Issues"
+      href="//cutepetsuppliesstore.com/product/winter-large-dog-clothes-reflective-big-dog-coat-jacket-warm-neck-design-overalls-for-dogs-leash-hole-dog-parkas-for-husky"
     >
-      Explore Open Issues
+      Featured Product of the Week
+    </Button>
+
+    <SectionHeading>For Existing Customers</SectionHeading>
+    <Heading>Missing our old site?</Heading>
+    <Text>
+      Worry Not. Our older site is still very much functional. Click on the
+      button below to enjoy the older version of Pet Supplies Store.
+    </Text>
+
+    <Button inverse href="https://petsuppliesstore.co?from_new=true">
+      Explore Old Site
     </Button>
   </ContentForGuestRoot>
 );

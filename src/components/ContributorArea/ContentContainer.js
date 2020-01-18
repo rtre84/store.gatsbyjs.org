@@ -94,9 +94,7 @@ const ContentContainer = () => (
         ) : (
           <>
             <ContentForNotLoggedIn />
-            <ButlerBox>
-              <Butler />
-            </ButlerBox>
+            <ButlerBox>{/*<Butler />*/}</ButlerBox>
           </>
         )
       }

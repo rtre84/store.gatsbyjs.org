@@ -208,7 +208,7 @@ const ContentFor = ({ contributor }) => {
   } else {
     return (
       <span>
-        Get Gatsby Swag for <strong>FREE</strong>
+        Pet Supplies at a <strong>DISCOUNT</strong>
       </span>
     );
   }
@@ -306,9 +306,7 @@ class OpenBar extends Component {
             <OpenBarRoot onClick={onClick} className={className}>
               <Content>
                 <Section>
-                  <ButlerBox>
-                    <Butler />
-                  </ButlerBox>
+                  <ButlerBox>{/*<Butler />*/}</ButlerBox>
                   <Title>
                     <ContentFor contributor={contributor} />
                   </Title>

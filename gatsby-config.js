@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     siteUrl_orig: 'https://store.gatsbyjs.org',
     siteUrl: 'https://petsuppliesstore.co',
-    title: 'Holy buckets! Get your Gatsby swag here!',
+    title: 'Woofs and Meows! Get your pet supplies here!',
     description:
       'Do you like spaced-out socks? All purple everything? Hitting #maximumcomf with JAMstack Jammies? Oh boy have we got the swag store for you!'
   },

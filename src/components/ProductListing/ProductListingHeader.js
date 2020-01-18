@@ -41,11 +41,19 @@ const Intro = styled(`p`)`
 
 const ProductListingHeader = () => (
   <ProductListingHeaderRoot>
-    <Title>Get Gatsby Swag!</Title>
+    <Title>Pamper Your Furry Friends!</Title>
     <Intro>
-      The money we charge for swag helps to cover production and shipping costs.
-      In the unlikely event that Gatsby swag ends up turning a profit, we’ll
-      reinvest that money into the open source community.
+      We pride ourselves in curating an extensive range of unique premium
+      quality products at very competitive prices. With something for every
+      season in a variety of styles, sizes and colors, show your pet some love
+      today or better yet, gift your loved ones with simple yet thoughtful
+      trinkets for their furry friends no matter where they are and take
+      advantage of our worldwide shipping on all orders… stress-free.
+      <br />
+      <br />
+      With Pet Supplies Store, every day is full of discovery, wonder and
+      amazement with fun products just a click away. Pet shopping has never been
+      this great!
     </Intro>
   </ProductListingHeaderRoot>
 );

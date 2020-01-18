@@ -7,6 +7,7 @@ import { colors, radius, spacing } from '../../utils/styles';
 import gift from '../../assets/gift.png';
 
 const FreeBonusRoot = styled(`div`)`
+  visibility: hidden;
   align-items: center;
   background: ${colors.brandBright};
   border-radius: ${radius.default}px;
@@ -35,13 +36,13 @@ const SmileIcon = styled(MdSentimentSatisfied)`
 
 const FreeBonus = () => (
   <FreeBonusRoot>
-    <p>
-      <SmileIcon />
-      We will add the <strong>Gatsby Sticker Pack</strong> as a FREE bonus to
-      your order!
-    </p>
+    {/*<p>*/}
+    {/*<SmileIcon />*/}
+    {/*We will add the <strong>Gatsby Sticker Pack</strong> as a FREE bonus to*/}
+    {/*your order!*/}
+    {/*</p>*/}
 
-    <img src={gift} alt="Gift Icon" />
+    {/*<img src={gift} alt="Gift Icon" />*/}
   </FreeBonusRoot>
 );
 
