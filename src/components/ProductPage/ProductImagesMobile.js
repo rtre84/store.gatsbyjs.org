@@ -79,19 +79,19 @@ const ProductImagesMobile = ({ images, imageOnClick }) => (
         <ProductImage key={idx} image={image} onClick={imageOnClick} />
       ))}
 
-      <Incentive>
-        <h3>
-          <MdCameraAlt />
-          We want to see your Gatsby swag photos!
-        </h3>
-        <p>
-          Upload your photos to{' '}
-          <a href="https://github.com/gatsbyjs/store.gatsbyjs.org/issues/143">
-            the official photo sharing issue
-          </a>{' '}
-          and it may be featured in the store!
-        </p>
-      </Incentive>
+      {/*<Incentive>*/}
+      {/*<h3>*/}
+      {/*<MdCameraAlt />*/}
+      {/*We want to see your Gatsby swag photos!*/}
+      {/*</h3>*/}
+      {/*<p>*/}
+      {/*Upload your photos to{' '}*/}
+      {/*<a href="https://github.com/gatsbyjs/store.gatsbyjs.org/issues/143">*/}
+      {/*the official photo sharing issue*/}
+      {/*</a>{' '}*/}
+      {/*and it may be featured in the store!*/}
+      {/*</p>*/}
+      {/*</Incentive>*/}
     </ProductImagesMobileContent>
   </ProductImagesMobileRoot>
 );
