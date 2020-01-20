@@ -111,8 +111,8 @@ class ProductDetails extends React.Component {
             <strong style={{ color: colors.brand }}>
               Don’t see your pet's size?
             </strong>{' '}
-            Send us an email support@cutepetsuppliesstore.com and we’ll see if
-            we can help!
+            Send us an email support@petsuppliesstore.co and we’ll see if we can
+            help!
           </p>
         </Section>
         <Section id="size-chart">
@@ -123,8 +123,8 @@ class ProductDetails extends React.Component {
             <strong style={{ color: colors.brand }}>
               Don’t see your size?
             </strong>{' '}
-            Send us an email support@cutepetsuppliesstore.com and we’ll see if
-            we can help!
+            Send us an email support@petsuppliesstore.co and we’ll see if we can
+            help!
           </p>
         </Section>
         <Section id="materials-fit">
