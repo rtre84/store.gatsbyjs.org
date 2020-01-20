@@ -2,6 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 import SizeChartTable from './SizeChartTable';
 import SizeChartTablePets from './SizeChartTablePets';
+import sizeChartImage from './large-dog-harness-size-chart.png';
 import BackButton from './BackButton';
 
 import {
@@ -104,6 +105,7 @@ class ProductDetails extends React.Component {
         <Heading>Product Details</Heading>
         <BackButton>Back to Product</BackButton>
         <Section id="size-chart">
+          <img src={sizeChartImage} />
           <SectionHeading>Size Chart For Pets</SectionHeading>
           <UnitSelector unit={units} setUnits={this.changeUnits} />
           <SizeChartTablePets unit={units} />
