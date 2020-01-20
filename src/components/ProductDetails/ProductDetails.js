@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import SizeChartTable from './SizeChartTable';
+import SizeChartTablePets from './SizeChartTablePets';
 import BackButton from './BackButton';
 
 import {
@@ -103,14 +104,27 @@ class ProductDetails extends React.Component {
         <Heading>Product Details</Heading>
         <BackButton>Back to Product</BackButton>
         <Section id="size-chart">
-          <SectionHeading>Size Chart</SectionHeading>
+          <SectionHeading>Size Chart For Pets</SectionHeading>
+          <UnitSelector unit={units} setUnits={this.changeUnits} />
+          <SizeChartTablePets unit={units} />
+          <p>
+            <strong style={{ color: colors.brand }}>
+              Don’t see your pet's size?
+            </strong>{' '}
+            Send us an email support@cutepetsuppliesstore.com and we’ll see if
+            we can help!
+          </p>
+        </Section>
+        <Section id="size-chart">
+          <SectionHeading>Size Chart For Humans</SectionHeading>
           <UnitSelector unit={units} setUnits={this.changeUnits} />
           <SizeChartTable unit={units} />
           <p>
             <strong style={{ color: colors.brand }}>
               Don’t see your size?
             </strong>{' '}
-            Send us an email team@gatsbyjs.com and we’ll see if we can help!
+            Send us an email support@cutepetsuppliesstore.com and we’ll see if
+            we can help!
           </p>
         </Section>
         <Section id="materials-fit">
@@ -119,7 +133,7 @@ class ProductDetails extends React.Component {
             To help you find the right size and fit, here are some additional
             details about our t-shirts.
           </p>
-          <SubHeading>Dark Deploy Tee</SubHeading>
+          <SubHeading>Kitty Kat Deploy Tee</SubHeading>
           <UnorderedList>
             <li>Material: 50% polyester, 25% cotton, 25% rayon</li>
             <li>Fit:</li>
@@ -128,7 +142,7 @@ class ProductDetails extends React.Component {
               <li>Women’s sizes: semi-relaxed fit</li>
             </NestedUnorderedList>
           </UnorderedList>
-          <SubHeading>Purple Logo Tee</SubHeading>
+          <SubHeading>Logo Tee</SubHeading>
           <UnorderedList>
             <li>Material: 100% cotton</li>
             <li>Fit:</li>
