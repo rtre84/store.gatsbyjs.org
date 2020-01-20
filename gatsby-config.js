@@ -5,10 +5,10 @@ require('dotenv').config({
 module.exports = {
   siteMetadata: {
     siteUrl_orig: 'https://store.gatsbyjs.org',
-    siteUrl: 'https://petsuppliesstore.co',
+    siteUrl: 'https://cutepetsuppliesstore.com/',
     title: 'Woofs and Meows! Get your pet supplies here!',
     description:
-      'Do you like spaced-out socks? All purple everything? Hitting #maximumcomf with JAMstack Jammies? Oh boy have we got the swag store for you!'
+      'We pride ourselves in curating an extensive range of unique premium quality products at very competitive prices. With something for every season in a variety of styles, sizes and colors, show your pet some love today or better yet, gift your loved ones with simple yet thoughtful trinkets for their furry friends no matter where they are and take advantage of our worldwide shipping on all orders… stress-free.'
   },
   plugins: [
     {
@@ -36,7 +36,7 @@ module.exports = {
         short_name: 'Gatsby Store',
         start_url: '/',
         background_color: '#ffffff',
-        theme_color: '#663399',
+        theme_color: '#2C0B02',
         display: 'minimal-ui',
         icon: 'static/android-chrome-512x512.png'
       }
