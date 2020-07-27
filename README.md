@@ -1,3 +1,8 @@
+### Forked and re-purposed from 
+[gatsbyjs/store.gatsbyjs.org](https://github.com/gatsbyjs/store.gatsbyjs.org)
+
+This is a working repo but the README.md hasn't been updated yet. The changes are mostly cosmetic except for changes in environment variables. The Gatsby store is one of the better designed opensource ecommerce gatsby projects around IMHO. It has its flaws like no search feature but its still a great starting point. I'm working on including a search feature cleanly using algolia preferably that offers everything we've come to expect from search bars.   
+
 <p align="center">
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
