@@ -1,5 +1,5 @@
 [[plugins]]
-  package = netlify-plugin-search-index
+  package = "netlify-plugin-search-index"
     [plugins.inputs]
-      generatedFunctionName = searchFunction
+      generatedFunctionName = "searchFunction"
       publishDirJSONFileName = null
