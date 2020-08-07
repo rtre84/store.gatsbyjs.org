@@ -42,16 +42,16 @@ const ContentForGuest = () => (
     {/*</Button>*/}
     <Button
       inverse
-      href="//cutepetsuppliesstore.com/product/winter-large-dog-clothes-reflective-big-dog-coat-jacket-warm-neck-design-overalls-for-dogs-leash-hole-dog-parkas-for-husky"
+      href="//cutepetsuppliesstore.com/product/breathable-nylon-cat-muzzle-anti-bite-kitten-mouse-muzzles-for-bitting-bath-beauty-travel-tool-with-hole-cats-grooming-supplies"
     >
       Featured Product of the Week
     </Button>
 
     <SectionHeading>For Existing Customers</SectionHeading>
-    <Heading>Missing our old site?</Heading>
+    <Heading>Miss our old site?</Heading>
     <Text>
-      Worry Not. Our older site is still very much functional. Click on the
-      button below to enjoy the older version of Pet Supplies Store.
+      Worry Not. The older site is still very much functional. Click on the
+      button below to visit the old Pet Supplies Store.
     </Text>
 
     <Button inverse href="https://petsuppliesstore.co?from_new=true">
