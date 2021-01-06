@@ -23,7 +23,7 @@
     "@emotion/styled": "^10.0.11",
     "apollo-boost": "^0.4.4",
     "auth0-js": "^9.10.2",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "gatsby": "^2.22.12",
     "gatsby-image": "^2.0.41",
     "gatsby-plugin-emotion": "^4.0.6",
